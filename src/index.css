@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Netflix Sans-Bold";
+  src: url("./fonts//NetflixSans-Bold.otf") format("opentype");
+
+  font-family: "Netflix Sans-Light";
+  src: url("./fonts//NetflixSans-Light.otf") format("opentype");
+
+  font-family: "Netflix Sans-Medium";
+  src: url("./fonts//NetflixSans-Medium.otf") format("opentype");
+
+  font-family: "Netflix Sans-Regular";
+  src: url("./fonts//NetflixSans-Regular.otf") format("opentype");
+}
+
+body{
+  font-family: "Netflix Sans-Regular";
+}
